@@ -12,5 +12,14 @@ belajar laravel bagi pemula
 <li>Ketik perintah -> composer create-project laravel/laravel="12.*"</li>
 <li>ketika sudah terinstall, jalankan servernya -> php artisan serve </li>
 
-<h2><li type="1">Struktur Folder</li></h2>
-
+<h2><li type="2">Struktur Folder</li></h2>
+<li>app -> </li>
+<li>bootstarp -> </li>
+<li>config -> </li>
+<li>database -> </li>
+<li>public -> </li>
+<li>resources -> </li>
+<li>routes -> </li>
+<li>storage -> </li>
+<li>tests -> </li>
+<li>vendor -> </li>
