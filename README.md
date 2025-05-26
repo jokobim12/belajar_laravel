@@ -1,25 +1,69 @@
-# belajar_laravel
-belajar laravel bagi pemula
-<h2><li type="1">Instalasi Laravel</li></h2>
-<li>Download Visual Studio Code -> https://code.visualstudio.com/download </li>
-<li>Download composer -> https://getcomposer.org/download/</li>
-<li>Download xampp/laragon: xampp -> (https://www.apachefriends.org/download.html) laragon -> (https://laragon.org/download/)</li>
-<li>Buka CLI -> Pilih direktory tempat kalian ingin menyimpan project</li>
-<li>Buat directory baru -> mkdir nama_directory</li>
-<li>Pilih directory tadi -> cd nama_directory</li>
-<li>Buka directory -> code .</li>
-<li>Buka terminal di Visual Studio Code -> CTRL + ` </li>
-<li>Ketik perintah -> composer create-project laravel/laravel="12.*"</li>
-<li>ketika sudah terinstall, jalankan servernya -> php artisan serve </li>
+# Belajar Laravel  
+Tutorial Laravel untuk Pemula
 
-<h2><li type="2">Struktur Folder</li></h2>
-<li>app -> </li>
-<li>bootstarp -> </li>
-<li>config -> </li>
-<li>database -> </li>
-<li>public -> </li>
-<li>resources -> </li>
-<li>routes -> </li>
-<li>storage -> </li>
-<li>tests -> </li>
-<li>vendor -> </li>
+---
+
+## 1. Instalasi Laravel
+
+1. **Download Visual Studio Code**  
+   [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+2. **Download Composer**  
+   [https://getcomposer.org/download/](https://getcomposer.org/download/)
+
+3. **Download XAMPP atau Laragon**  
+   - XAMPP: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)  
+   - Laragon: [https://laragon.org/download/](https://laragon.org/download/)
+
+4. **Buka Command Line Interface (CLI)**  
+   Pilih direktori tempat Anda ingin menyimpan proyek Laravel.
+
+5. **Buat direktori baru**  
+   ```bash
+   mkdir nama_directory
+6. **Masuk ke direktori yang sudah dibuat**
+   cd nama_directory
+7. **Buka Visual Studio Code di direktori tersebut** 
+   code .
+8. **Buka terminal di Visual Studio Code** 
+   Tekan `CTRL + `` (tanda backtick)
+9. **Install Laravel menggunakan Composer** 
+   composer create-project laravel/laravel="12.*"
+10. **Jalankan server development Laravel** 
+   php artisan serve
+
+
+## 2. Struktur Folder
+
+<h2>Berikut penjelasan singkat beberapa folder penting di Laravel:</h2>
+
+- app/
+  Tempat menyimpan kode aplikasi seperti Models, Controllers, dan logika bisnis.
+
+- bootstrap/
+  Berisi file bootstrap untuk memulai framework Laravel.
+
+- config/
+  Berisi konfigurasi aplikasi seperti database, mail, cache, dll.
+
+- database/
+  Folder untuk migrasi database, model factory, dan seeding data.
+
+- public/
+  Root folder yang diakses publik, berisi index.php dan aset frontend.
+
+- resources/
+  Tempat untuk view (Blade templates), file bahasa (localization), dan aset frontend yang belum di-compile.
+
+- routes/
+  Tempat mendefinisikan semua route aplikasi (web.php, api.php, dll).
+
+- storage/
+  Tempat penyimpanan file seperti cache, logs, dan file upload.
+
+- tests/
+  Folder untuk menulis unit dan feature testing aplikasi.
+
+- vendor/
+  Folder yang berisi semua dependency Composer (tidak perlu diubah).
+
