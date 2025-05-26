@@ -36,7 +36,11 @@ Tutorial Laravel untuk Pemula
 9. **Install Laravel menggunakan Composer** 
    ```bash
    composer create-project laravel/laravel="12.*"
-   
+
+10. **Jalankan server development Laravel**
+   ```bash 
+   php artisan serve
+
 10. **Jalankan server development Laravel**
    ```bash 
    php artisan serve
