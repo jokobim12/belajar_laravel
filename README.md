@@ -1,6 +1,6 @@
 # belajar_laravel
 belajar laravel bagi pemula
-<h2><li type="1">Instalasi Laravel</li></h2>
+<h2><li>Instalasi Laravel</li></h2>
 <li>Download Visual Studio Code -> https://code.visualstudio.com/download </li>
 <li>Download composer -> https://getcomposer.org/download/</li>
 <li>Download xampp/laragon: xampp -> (https://www.apachefriends.org/download.html) laragon -> (https://laragon.org/download/)</li>
@@ -12,7 +12,7 @@ belajar laravel bagi pemula
 <li>Ketik perintah -> composer create-project laravel/laravel="12.*"</li>
 <li>ketika sudah terinstall, jalankan servernya -> php artisan serve </li>
 
-<h2><li type="2">Struktur Folder</li></h2>
+<h2><li>Struktur Folder</li></h2>
 <li>app -> </li>
 <li>bootstarp -> </li>
 <li>config -> </li>
