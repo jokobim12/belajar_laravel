@@ -22,14 +22,18 @@ Tutorial Laravel untuk Pemula
    ```bash
    mkdir nama_directory
 6. **Masuk ke direktori yang sudah dibuat**
+   ```bash
    cd nama_directory
 7. **Buka Visual Studio Code di direktori tersebut** 
+   ```bash
    code .
 8. **Buka terminal di Visual Studio Code** 
    Tekan `CTRL + `` (tanda backtick)
 9. **Install Laravel menggunakan Composer** 
+   ```bash
    composer create-project laravel/laravel="12.*"
 10. **Jalankan server development Laravel** 
+   ```bash
    php artisan serve
 
 
