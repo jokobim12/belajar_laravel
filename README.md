@@ -33,7 +33,6 @@ Tutorial Laravel untuk Pemula
    ```bash
    composer create-project laravel/laravel="12.*"
 10. **Jalankan server development Laravel** 
-   ```bash
    php artisan serve
  
  ---
