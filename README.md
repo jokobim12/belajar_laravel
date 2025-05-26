@@ -36,7 +36,7 @@ Tutorial Laravel untuk Pemula
    ```bash
    php artisan serve
 
-
+**---------------------------------------------------------------------------**
 ## 2. Struktur Folder
 
 <h2>Berikut penjelasan singkat beberapa folder penting di Laravel:</h2>
