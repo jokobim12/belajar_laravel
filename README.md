@@ -17,6 +17,10 @@ Tutorial Laravel untuk Pemula
 
 4. **Buka Command Line Interface (CLI)**  
    Pilih direktori tempat Anda ingin menyimpan proyek Laravel.
+   contoh: 
+   ini akan masuk ke folder htdocs
+   ```bash
+   cd \xampp\htdocs
 
 5. **Buat direktori baru**  
    ```bash
