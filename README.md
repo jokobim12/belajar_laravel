@@ -34,6 +34,42 @@ Tutorial Laravel untuk Pemula
    composer create-project laravel/laravel="12.*"
 10. **Jalankan server development Laravel**
    ```bash 
-   <p>php artisan serve</p>
+   php artisan serve
+   ```bash 
  
- 
+ ---
+
+## 2. Struktur Folder
+
+<h2>Berikut penjelasan singkat beberapa folder penting di Laravel:</h2>
+
+- app/
+  Tempat menyimpan kode aplikasi seperti Models, Controllers, dan logika bisnis.
+
+- bootstrap/
+  Berisi file bootstrap untuk memulai framework Laravel.
+
+- config/
+  Berisi konfigurasi aplikasi seperti database, mail, cache, dll.
+
+- database/
+  Folder untuk migrasi database, model factory, dan seeding data.
+
+- public/
+  Root folder yang diakses publik, berisi index.php dan aset frontend.
+
+- resources/
+  Tempat untuk view (Blade templates), file bahasa (localization), dan aset frontend yang belum di-compile.
+
+- routes/
+  Tempat mendefinisikan semua route aplikasi (web.php, api.php, dll).
+
+- storage/
+  Tempat penyimpanan file seperti cache, logs, dan file upload.
+
+- tests/
+  Folder untuk menulis unit dan feature testing aplikasi.
+
+- vendor/
+  Folder yang berisi semua dependency Composer (tidak perlu diubah).
+
