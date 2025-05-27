@@ -81,3 +81,10 @@ Tutorial Laravel untuk Pemula
 - vendor/
   Folder yang berisi semua dependency Composer (tidak perlu diubah).
 
+---  
+
+## 3. Project CRUD
+
+1. **Membuat route**
+   ```bash
+   php artisan make:controller --resources
