@@ -96,7 +96,7 @@ Tutorial Laravel untuk Pemula
 3. **Edit Migration File database/migrations/xxxx_xx_xx_create_bukus_table.php**
    ```bash
    public function up(): void
-{
+   {
     Schema::create('bukus', function (Blueprint $table) {
         $table->id();
         $table->string('judul');
@@ -104,7 +104,7 @@ Tutorial Laravel untuk Pemula
         $table->year('tahun_terbit');
         $table->timestamps();
     });
-}
+   }
 
 4. **Migrasi ke Database**
    ```bash
