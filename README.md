@@ -120,11 +120,11 @@ Tutorial Laravel untuk Pemula
    ```bash
    namespace App\Http\Controllers;
 
-use App\Models\Buku;
-use Illuminate\Http\Request;
+   use App\Models\Buku;
+   use Illuminate\Http\Request;
 
-class BukuController extends Controller
-{
+   class BukuController extends Controller
+   {
     public function index()
     {
         $bukus = Buku::all();
@@ -175,17 +175,17 @@ class BukuController extends Controller
         $buku->delete();
         return redirect()->route('buku.index')->with('success', 'Buku berhasil dihapus');
     }
-}
+   }
 
 7. **Buat Blade Templates**
 - resources/views/buku/index.blade.php
-   ```bash
+  ```bash
    <!DOCTYPE html>
-<html>
-<head>
+   <html>
+  <head>
     <title>Daftar Buku</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Daftar Buku</h1>
     <a href="{{ route('buku.create') }}">Tambah Buku</a>
     @if(session('success'))
@@ -204,17 +204,17 @@ class BukuController extends Controller
             </li>
         @endforeach
     </ul>
-</body>
-</html>
+  </body>
+  </html>
 
 - resources/views/buku/create.blade.php
   ```bash
   <!DOCTYPE html>
-<html>
-<head>
+  <html>
+  <head>
     <title>Tambah Buku</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Tambah Buku</h1>
     <form action="{{ route('buku.store') }}" method="POST">
         @csrf
@@ -223,17 +223,17 @@ class BukuController extends Controller
         Tahun Terbit: <input type="number" name="tahun_terbit"><br>
         <button type="submit">Simpan</button>
     </form>
-</body>
-</html>
+  </body>
+  </html>
 
 - resources/views/buku/create.blade.php
   ```bash
   <!DOCTYPE html>
-<html>
-<head>
+  <html>
+  <head>
     <title>Tambah Buku</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Tambah Buku</h1>
     <form action="{{ route('buku.store') }}" method="POST">
         @csrf
@@ -242,17 +242,17 @@ class BukuController extends Controller
         Tahun Terbit: <input type="number" name="tahun_terbit"><br>
         <button type="submit">Simpan</button>
     </form>
-</body>
-</html>
+  </body>
+  </html>
 
 - resources/views/buku/edit.blade.php
   ```bash
   <!DOCTYPE html>
-<html>
-<head>
+  <html>
+  <head>
     <title>Edit Buku</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Edit Buku</h1>
     <form action="{{ route('buku.update', $buku) }}" method="POST">
         @csrf
@@ -262,8 +262,8 @@ class BukuController extends Controller
         Tahun Terbit: <input type="number" name="tahun_terbit" value="{{ $buku->tahun_terbit }}"><br>
         <button type="submit">Update</button>
     </form>
-</body>
-</html>
+  </body>
+  </html>
 
 8. **Model Fillable: app/Models/Buku.php**
    ```bash
