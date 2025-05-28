@@ -269,15 +269,15 @@ class BukuController extends Controller
    ```bash
    namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+   use Illuminate\Database\Eloquent\Factories\HasFactory;
+   use Illuminate\Database\Eloquent\Model;
 
-class Buku extends Model
-{
+   class Buku extends Model
+   {
     use HasFactory;
 
-    protected $fillable = ['judul', 'penulis', 'tahun_terbit'];
-}
+   protected $fillable = ['judul', 'penulis', 'tahun_terbit'];
+    }
 
 9. **Project selesain sekarang coba lihat**
 
