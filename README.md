@@ -30,16 +30,16 @@ Tutorial Laravel untuk Pemula
    ```bash
    cd nama_directory
 
-7. **Buka Visual Studio Code di direktori tersebut** 
+7. **Buat Project Laravel dengan mengetikan kode berikut**
+   ```bash
+   composer create-project --prefer-dist laravel/laravel:^12.0 nama-proyek
+
+8. **Buka Visual Studio Code di direktori tersebut** 
    ```bash
    code .
 
-8. **Buka terminal di Visual Studio Code** 
+9. **Buka terminal di Visual Studio Code** 
    Tekan `CTRL + `` (tanda backtick)
-
-9. **Install Laravel menggunakan Composer** 
-   ```bash
-   composer create-project laravel/laravel="12.*"
 
 10. **Jalankan servernya**
     ```bash
@@ -87,4 +87,4 @@ Tutorial Laravel untuk Pemula
 
 1. **Membuat route**
    ```bash
-   php artisan make:controller --resources
+   php artisan make:controller BukuController --resource
